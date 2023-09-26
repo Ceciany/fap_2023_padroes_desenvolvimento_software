@@ -2,8 +2,8 @@ let numero: number = 20;
 let texto: string = "Otávio";
 let nulo: null;
 let boleano: boolean = false;
-let ingredientes = ["açucar", "sal", "limao"];
-let objeto = {nome:"ceciany",idade:10,diploma:true};
+const ingredientes: Array<string> = ["açucar", "sal", "limao"];
+const objeto = {nome:"ceciany",idade:10,diploma:true};
 
 
 
@@ -12,7 +12,7 @@ let objeto = {nome:"ceciany",idade:10,diploma:true};
 
 
 
-console.log(objeto);
+console.log(typeof ingredientes);
 
 
 
